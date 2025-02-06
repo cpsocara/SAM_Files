@@ -1,0 +1,97 @@
+*  ---- 
+* Built RTF for smiles_corr_0.mol2
+*    by user SwissParam     Thu 14 Dec 2023 12:19:41 CEST
+* ---- 
+*
+
+ATOMS
+MASS    -1 OR    15.999400
+MASS    -1 C=O   12.011000
+MASS    -1 O=C   15.999400
+MASS    -1 CR    12.011000
+MASS    -1 SP    32.066000
+MASS    -1 HOCO   1.007940
+MASS    -1 HCMM   1.007940
+
+BONDS
+OR   C=O   417.476     1.3550 
+C=O  O=C   931.963     1.2220 
+C=O  CR    301.539     1.4920 
+CR   CR    306.432     1.5080 
+CR   SP    212.732     1.8010 
+OR   HOCO  532.766     0.9810 
+CR   HCMM  342.991     1.0930 
+
+ANGLES
+C=O  OR   HOCO   41.956    111.9480 
+OR   C=O  O=C    83.120    124.4250 
+OR   C=O  CR     75.060    109.7160 
+O=C  C=O  CR     67.504    124.4100 
+C=O  CR   CR     55.917    107.5170 
+C=O  CR   HCMM   46.778    108.3850 
+CR   CR   HCMM   45.770    110.5490 
+HCMM CR   HCMM   37.134    108.8360 
+CR   CR   CR     61.243    109.6080 
+CR   CR   SP     53.470    107.3970 
+SP   CR   HCMM   39.365    116.5760 
+
+DIHEDRALS
+OR   C=O  CR   CR      -0.059  1     0.00 
+OR   C=O  CR   CR      -0.167  2   180.00 
+OR   C=O  CR   CR       0.101  3     0.00 
+OR   C=O  CR   HCMM    -0.312  2   180.00 
+OR   C=O  CR   HCMM     0.165  3     0.00 
+C=O  CR   CR   CR       0.033  1     0.00 
+C=O  CR   CR   CR      -0.078  2   180.00 
+C=O  CR   CR   CR       0.071  3     0.00 
+C=O  CR   CR   HCMM    -0.128  1     0.00 
+C=O  CR   CR   HCMM     0.029  2   180.00 
+O=C  C=O  OR   HOCO     0.831  1     0.00 
+O=C  C=O  OR   HOCO     3.076  2   180.00 
+O=C  C=O  OR   HOCO    -0.029  3     0.00 
+O=C  C=O  CR   CR       0.412  1     0.00 
+O=C  C=O  CR   CR       0.070  2   180.00 
+O=C  C=O  CR   CR       0.163  3     0.00 
+O=C  C=O  CR   HCMM     0.330  1     0.00 
+O=C  C=O  CR   HCMM    -0.704  2   180.00 
+O=C  C=O  CR   HCMM     0.154  3     0.00 
+CR   C=O  OR   HOCO    -0.583  1     0.00 
+CR   C=O  OR   HOCO     2.539  2   180.00 
+CR   C=O  OR   HOCO    -0.273  3     0.00 
+CR   CR   CR   CR       0.051  1     0.00 
+CR   CR   CR   CR       0.341  2   180.00 
+CR   CR   CR   CR       0.166  3     0.00 
+CR   CR   CR   HCMM     0.320  1     0.00 
+CR   CR   CR   HCMM    -0.315  2   180.00 
+CR   CR   CR   HCMM     0.132  3     0.00 
+CR   CR   CR   SP       0.150  3     0.00 
+SP   CR   CR   HCMM     0.150  3     0.00 
+HCMM CR   CR   HCMM     0.142  1     0.00 
+HCMM CR   CR   HCMM    -0.693  2   180.00 
+HCMM CR   CR   HCMM     0.157  3     0.00 
+
+IMPROPER
+C=O  CR   OR   O=C     10.147  0     0.00 
+CR   CR   C=O  HCMM     0.000  0     0.00 
+CR   CR   CR   HCMM     0.000  0     0.00 
+CR   SP   CR   HCMM     0.000  0     0.00 
+
+NONBONDED nbxmod  5 atom cdiel shift vatom vdistance vswitch - 
+cutnb 14.0 ctofnb 12.0 ctonnb 10.0 eps 1.0 e14fac 1.0 wmin 1.5 
+OR      0.000000  -0.152100     1.770000    
+C=O     0.000000  -0.110000     2.000000    
+O=C     0.000000  -0.120000     1.700000   0.000000  -0.120000     1.400000    
+CR      0.000000  -0.056000     2.010000   0.000000  -0.010000     1.900000    
+SP      0.000000  -0.470000     2.200000    
+HOCO    0.000000  -0.046000     0.224500    
+HCMM    0.000000  -0.022000     1.320000    
+
+!Au      0.000000  -0.039       1.4675  ! from J. Phys. Chem. C 2007, 111, 15857–15862, sigma = 2.935
+!AuL     0.000000  -0.039       1.4675  ! from J. Phys. Chem. C 2007, 111, 15857–15862, sigma = 2.935
+Au      0.000000  -5.2899       1.475  ! from J. Chem. Theory Comput. 2016, 12, 1342−1350 , sigma = 2.629
+AuL     0.000000  -5.2899       1.475  ! from J. Chem. Theory Comput. 2016, 12, 1342−1350 , sigma = 2.629
+!Au      0.000000  -5.29         2.951  ! from J. Phys. Chem. C 2008, 112, 17281–17290
+!AuL     0.000000  -5.29         2.951  ! from J. Phys. Chem. C 2008, 112, 17281–17290
+!Au      0.000000  -1.0000       1.900  ! from J Mater Sci (2012) 47:7686–7692
+!AuL     0.000000  -1.0000       1.900  ! from J Mater Sci (2012) 47:7686–7692
+

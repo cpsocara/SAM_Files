@@ -1,0 +1,62 @@
+* prm file built by MATCH, LJ from UFF
+*
+
+BONDS
+CR     OR     428.00     1.4200     
+CR     CR     222.50     1.5300     
+CR     CR2    222.50     1.5300     
+CR2    SP     205.00     1.8360     
+HOR    OR     545.00     0.9600     
+CR     HCMM   309.00     1.1110     
+CR2    HCMM   300.00     1.1110     
+
+ANGLES
+CR     CR     OR     75.70      110.10     
+HCMM   CR     OR     45.90      108.89     
+CR     OR     HOR    50.00      106.00     
+HCMM   CR     CR     26.50      110.10     
+CR     CR     CR     58.35      113.60     
+CR     CR     CR2    58.35      113.60     
+HCMM   CR     CR2    26.50      110.10     
+CR     CR2    SP     55.00      118.00     
+CR     CR2    HCMM   26.50      110.10     
+HCMM   CR2    SP     40.00      112.30     
+HCMM   CR     HCMM   35.50      109.00     
+HCMM   CR2    HCMM   35.50      108.40     
+
+DIHEDRALS
+CR     CR     CR     OR     0.1950     3      0.00       
+HCMM   CR     CR     OR     0.1950     3      0.00       
+CR     CR     OR     HOR    0.1400     2      0.00       
+CR     CR     OR     HOR    0.2400     3      0.00       
+CR     CR     OR     HOR    1.1300     1      0.00       
+HCMM   CR     OR     HOR    0.0000     3      0.00       
+HCMM   CR     CR     CR     0.1950     3      0.00       
+HCMM   CR     CR     HCMM   0.2200     3      0.00       
+CR     CR     CR     CR     0.14975    3      180.00     
+CR     CR     CR     CR     0.09458    4      0.00       
+CR     CR     CR     CR     0.11251    5      0.00       
+CR     CR     CR     CR     0.06450    2      0.00       
+CR     CR     CR     CR2    0.14975    3      180.00     
+CR     CR     CR     CR2    0.09458    4      0.00       
+CR     CR     CR     CR2    0.11251    5      0.00       
+CR     CR     CR     CR2    0.06450    2      0.00       
+HCMM   CR     CR     CR2    0.1950     3      0.00       
+CR     CR     CR2    SP     0.1700     2      0.0        
+CR     CR     CR2    SP     0.0500     3      180.0      
+CR     CR     CR2    SP     0.1400     1      180.0      
+CR     CR     CR2    HCMM   0.1950     3      0.00       
+HCMM   CR     CR2    SP     0.1500     3      0.00       
+HCMM   CR     CR2    HCMM   0.2200     3      0.00       
+
+IMPROPER
+
+NONBONDED nbxmod  5 atom cdiel shift vatom vdistance vswitch -
+cutnb 14.0 ctofnb 12.0 ctonnb 10.0 eps 1.0 e14fac 1.0 wmin 1.5
+CR     0.000000  -0.105        1.925500   ! UFF C_3
+OR     0.000000  -0.060000     1.750000   ! UFF O_
+CR2    0.000000  -0.105        1.925500   ! UFF C_3
+SP     0.000000  -0.250388     2.225000   ! Pool et al. from 10.1021/acs.jpcc.7b09857
+HOR    0.000000  -0.044000     1.443000   ! UFF H_
+HCMM   0.000000  -0.044000     1.443000   ! UFF H_
+Au     0.000000  -0.039        1.4675     ! from J. Phys. Chem. C 2007, 111, 15857–15862, sigma = 2.935
